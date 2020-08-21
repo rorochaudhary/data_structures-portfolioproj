@@ -4,30 +4,21 @@
 <br>Tools: Microsoft Visual Studio Code
 
 ## Introduction
-The course taught data structures and abstract data types including Dyanmic Arrays, Bags, Linked Lists, Stacks, Queues, Deques, Trees, Binary Trees, AVL Trees, Heaps, Hash Tables and introduced Graphs, Big-O complexity, and amortized analysis. The course culminated in this final project to tie in multiple data structures, specifically a Hash Table and a Minimum Heap, along with complexity analysis.
+The course taught data structures and abstract data types including Dyanmic Arrays, Bags, Linked Lists, Stacks, Queues, Deques, Trees, Binary Trees, AVL Trees, Heaps, Hash Tables and introduced Graphs, Big-O complexity, and amortized analysis. The course culminated in this final project to tie in multiple data structures through implementation of a Hash Table and a Minimum Heap.
 
 ## Description
-Implementing a Hash Table requires a Dynamic Array by itself or the addition of a LinkedList, depending on what is chosen to handle hash collisions. For this implementation, hash collision were handled with chaining, and thus utilized Linked Lists alongside the Dynamic Array. The two hash functions are relatively simple, and create enough of a spread in resulting indices to demonstrate functionality.
+Implementing a Hash Table requires a Dynamic Array by itself or the addition of a LinkedList, depending on what is chosen to handle hash collisions. For this implementation, hash collisions were handled with chaining, and thus utilized Linked Lists alongside the Dynamic Array. The two hash functions are relatively simple, and create enough of a spread in resulting hashed indices to demonstrate functionality.
 
+The Minimum Heap is implemented using a Dynamic Array functioning as a Priority Queue. Associated methods perform work via calculating indices of children or parent nodes.
 
+Both the Linked List and Dynamic Array helper structures are imported from helper_structs.py. A small test suite is included at the bottom of hash_map.py/min_heap.py that demonstrate each of the methods.
 
 ## Instructions
-All files necessary to run the project on Microsoft Visual Studio are included in this repository.
+All files necessary to run the project on Microsoft Visual Studio Code are included in this repository. Make sure that Python is your chosen interpreter (version 3 or higher).
 
-### Loading the Project into Visual Studio (if already loaded, skip to next section).
-1) Double-click and execute Project.sln file with Visual Studio.
-![Screenshot](https://github.com/rorochaudhary/assembly-portfolioproj/blob/master/Screenshots/screenshot_step1.jpg)
-2) If RohitChaudhary_Project6.asm is not alread loaded into the Solution Explorer, do so by right-clicking "Project" in the Solution Explorer -> Add -> Existing Item.
-![Screenshot](https://github.com/rorochaudhary/assembly-portfolioproj/blob/master/Screenshots/screenshot_step2.jpg)
-3) Navigate to the folder containing the Project and find the file titled "RohitChaudhary_Project6.asm". Click on the file and then click Add. The file should now be the only file shown belonging to Project. Double-click on the file to show code in Visual Studio.
-![Screenshot](https://github.com/rorochaudhary/assembly-portfolioproj/blob/master/Screenshots/screenshot_step3.jpg)
-### Running the Program
-1) To Run the project, click on Debug -> Start Without Debugging or press Ctrl + F5.
-![Screenshot](https://github.com/rorochaudhary/assembly-portfolioproj/blob/master/Screenshots/screenshot_step4.jpg)
-2) Program will execute in another window, displaying relevant info and prompting you to input a signed number.
-![Screenshot](https://github.com/rorochaudhary/assembly-portfolioproj/blob/master/Screenshots/screenshot_step5.jpg)
-3) Continue to input signed numbers. Invalid ones prompt an error message and you try again.
-![Screenshot](https://github.com/rorochaudhary/assembly-portfolioproj/blob/master/Screenshots/screenshot_step6.jpg)
-4) Once 10 valid signed numbers are accepted, the program will display your entered values along with the sum and average.
-![Screenshot](https://github.com/rorochaudhary/assembly-portfolioproj/blob/master/Screenshots/screenshot_step7.jpg)
-5) The program is complete, press any key to exit.
+### Running program tests
+1) Open either hash_map.py or min_heap.py within the IDE of your choice.
+
+2) Tests are by default commented out. Uncomment the test suite by removing the leading number signs (#) or by hitting Ctrl + /. 
+
+3) Run the program by clicking Run -> Run Without Debugging or press Ctrl + F5.
