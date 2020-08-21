@@ -21,4 +21,4 @@ All files necessary to run the project on Microsoft Visual Studio Code are inclu
 
 2) Tests are by default commented out. Uncomment the test suite by removing the leading number signs (#) or by hitting Ctrl + /. 
 
-3) Run the program by clicking Run -> Run Without Debugging or press Ctrl + F5.
+3) Run the program by clicking Run -> Run Without Debugging or press Ctrl + F5 (this is for VSCode, running on your IDE may be different).
