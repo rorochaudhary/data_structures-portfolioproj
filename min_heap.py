@@ -203,6 +203,7 @@ class MinHeap:
                 else:
                     smaller_child = right_child
                     i_small = i_right
+
             # found smaller child, compare with current
             if current > smaller_child:
                 # swap
@@ -222,15 +223,15 @@ class MinHeap:
 # BASIC TESTING
 # if __name__ == '__main__':
 
-    # print("\nPDF - add example 1")
-    # print("-------------------")
-    # h = MinHeap()
-    # print(h, h.is_empty())
-    # for value in range(300, 200, -15):
-    #     h.add(value)
-    #     print(h)
+#     print("\nadd example 1")
+#     print("-------------------")
+#     h = MinHeap()
+#     print(h, h.is_empty())
+#     for value in range(300, 200, -15):
+#         h.add(value)
+#         print(h)
 
-    # print("\nPDF - add example 2")
+    # print("\nadd example 2")
     # print("-------------------")
     # h = MinHeap(['fish', 'bird'])
     # print(h)
@@ -239,14 +240,14 @@ class MinHeap:
     #     print(h)
 
 
-    # print("\nPDF - get_min example 1")
+    # print("\nget_min example 1")
     # print("-----------------------")
     # h = MinHeap(['fish', 'bird'])
     # print(h)
     # print(h.get_min(), h.get_min())
 
 
-    # print("\nPDF - remove_min example 1")
+    # print("\nremove_min example 1")
     # print("--------------------------")
     # h = MinHeap([1, 10, 2, 9, 3, 8, 4, 7, 5, 6])
     # while not h.is_empty():
@@ -254,7 +255,7 @@ class MinHeap:
     #     print(h.remove_min())
 
 
-    # print("\nPDF - build_heap example 1")
+    # print("\nbuild_heap example 1")
     # print("--------------------------")
     # da = DynamicArray([100, 20, 6, 200, 90, 150, 300])
     # h = MinHeap(['zebra', 'apple'])
