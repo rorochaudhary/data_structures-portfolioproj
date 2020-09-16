@@ -5,7 +5,7 @@
 
 
 # Import pre-written DynamicArray and LinkedList classes
-from a5_include import *
+from helper_structs import *
 
 
 class MinHeapException(Exception):
